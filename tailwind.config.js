@@ -40,8 +40,8 @@ export default {
       },
       fontFamily: {
         sans: ["var(--font-sora)", ...fontFamily.sans],
-        code: "var(--font-code)",
-        grotesk: "var(--font-grotesk)",
+        code: "var(--font-madimi)",
+        grotesk: "var(--font-bebas)",
       },
       letterSpacing: {
         tagline: ".15em",
