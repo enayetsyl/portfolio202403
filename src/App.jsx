@@ -1,10 +1,15 @@
+import ButtonGradient from "./assets/svg/ButtonGradient"
+import Button from "./components/Button"
+import Header from "./components/Header"
 
 function App() {
-  
-
   return (
     <>
-    <h1 className="text-red-700 font-black underline">Assalamualaikum </h1>
+    <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden ">
+      <Header/>
+      <Button className='text-base font-sans '>Resume</Button>
+    </div>
+    <ButtonGradient/>
     </>
   )
 }
