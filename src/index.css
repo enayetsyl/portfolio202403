@@ -87,3 +87,48 @@
 }
 
 
+/* text animation */
+
+.one{
+  animation: animate 1s backwards;
+  animation-delay: 1s;
+}
+/* .two{
+  animation: animate 1s backwards;
+  animation-delay: 1.4s;
+}
+.three{
+  animation: animate 1s backwards;
+  animation-delay: 1.8s;
+} */
+.four{
+  animation: animate 1s backwards;
+  animation-delay: 2.2s;
+}
+/* .five{
+  animation: animate 1s backwards;
+  animation-delay: 2.6s;
+}
+.six{
+  animation: animate 1s backwards;
+  animation-delay: 3s;
+} */
+.seven{
+  animation: animate 1s backwards;
+  animation-delay: 3.2s;
+}
+.eight{
+  animation: animate 1s backwards;
+  animation-delay: 5s;
+}
+
+@keyframes animate{
+0%{
+  transform: translateX(300px);
+  opacity: 0;
+  scale: 0.8;
+}
+100%{
+  opacity: 1;
+  scale:1;
+}}
