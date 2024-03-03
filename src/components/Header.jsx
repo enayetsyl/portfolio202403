@@ -4,6 +4,7 @@ import { navigation } from "../constants";
 import { HamburgerMenu } from "./design/Header";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 const Header = () => {
   const pathname = useLocation();
@@ -12,17 +13,17 @@ const Header = () => {
   const toggleNavigation = () => {
     if (openNavigation) {
       setOpenNavigation(false);
-      // enablePageScroll();
+      enablePageScroll();
     } else {
       setOpenNavigation(true);
-      // disablePageScroll();
+      disablePageScroll();
     }
   };
 
   const handleClick = () => {
     if (!openNavigation) return;
 
-    // enablePageScroll();
+    enablePageScroll();
 
     setOpenNavigation(false);
   };
