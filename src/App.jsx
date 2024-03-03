@@ -9,7 +9,7 @@ function App() {
         
           <Header />
        
-        <Button className="text-base font-sans ">Resume</Button>
+        <Button className="my-20 ml-20 text-base font-sans ">Resume</Button>
       </div>
       <ButtonGradient />
     </>

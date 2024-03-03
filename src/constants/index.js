@@ -44,36 +44,41 @@ import cardSix from '../assets/benefits/card-6.svg'
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "MERN Projects",
+    url: "#mern",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Skills",
+    url: "#skills",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Other Projects",
+    url: "#other-projects",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Blogs",
+    url: "#blogs",
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
+    title: "About",
+    url: "#about",
   },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "4",
+  //   title: "New account",
+  //   url: "#signup",
+  //   onlyMobile: true,
+  // },
+  // {
+  //   id: "5",
+  //   title: "Sign in",
+  //   url: "#login",
+  //   onlyMobile: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
