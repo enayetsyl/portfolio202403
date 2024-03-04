@@ -34,7 +34,21 @@ import {
   telegram,
   twitter,
   yourlogo,
+  
+  // reicon,
 } from "../assets";
+import reicon from '../assets/icons8-react-40.png'
+import mongodb from '../assets/mongodb.png'
+import nodejs from '../assets/nodejs.png'
+import expressjs from '../assets/expessjs.png'
+import nextauth from '../assets/notification/nextauth.png'
+import surge from '../assets/surge.png'
+import firebase from '../assets/firebase.png'
+import netlify from '../assets/netlify.jpg'
+import render from '../assets/render.jpg'
+import vercel from '../assets/vercel.jpg'
+import next4 from '../assets/notification/next4.jpg'
+import clerk from '../assets/notification/clerk.png'
 import cardOne from '../assets/benefits/card-1.svg'
 import cardTwo from '../assets/benefits/card-2.svg'
 import cardThree from '../assets/benefits/card-3.svg'
@@ -81,11 +95,11 @@ export const navigation = [
   // },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+export const heroIcons = [reicon, mongodb, nodejs, expressjs];
 
-export const notificationImages = [notification4, notification3, notification2];
+export const notificationImages = [nextauth, clerk, next4];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [vercel, firebase, render, netlify, surge];
 
 export const brainwaveServices = [
   "Photo generating",
