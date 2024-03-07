@@ -22,68 +22,72 @@
   }
 }
 
-.rotate-45 {
-  @apply rotate-[45deg];
+.rotate-20 {
+  @apply rotate-[20deg];
 }
 
-.rotate-90 {
-  @apply rotate-[90deg];
+.rotate-40 {
+  @apply rotate-[40deg];
 }
 
-.rotate-135 {
-  @apply rotate-[135deg];
+.rotate-60 {
+  @apply rotate-[60deg];
+}
+
+.rotate-80 {
+  @apply rotate-[80deg];
+}
+
+.rotate-100 {
+  @apply rotate-[100deg];
+}
+
+.rotate-120 {
+  @apply rotate-[120deg];
+}
+
+.rotate-140 {
+  @apply rotate-[140deg];
+}
+
+.rotate-160 {
+  @apply rotate-[160deg];
 }
 
 .rotate-180 {
   @apply rotate-[180deg];
 }
 
-.rotate-225 {
-  @apply rotate-[225deg];
+
+.rotate-200 {
+  @apply rotate-[200deg];
 }
 
-.rotate-270 {
-  @apply rotate-[270deg];
+.rotate-220 {
+  @apply rotate-[220deg];
 }
 
-.rotate-315 {
-  @apply rotate-[315deg];
+.rotate-240 {
+  @apply rotate-[240deg];
 }
 
+.rotate-260 {
+  @apply rotate-[260deg];
+}
+.rotate-280 {
+  @apply rotate-[280deg];
+}
+.rotate-300 {
+  @apply rotate-[300deg];
+}
+.rotate-320 {
+  @apply rotate-[320deg];
+}
+.rotate-340 {
+  @apply rotate-[340deg];
+}
 .rotate-360 {
   @apply rotate-[360deg];
-}
-
-.-rotate-45 {
-  @apply rotate-[-45deg];
-}
-
-.-rotate-90 {
-  @apply rotate-[-90deg];
-}
-
-.-rotate-135 {
-  @apply rotate-[-135deg];
-}
-
-.-rotate-180 {
-  @apply rotate-[-180deg];
-}
-
-.-rotate-225 {
-  @apply rotate-[-225deg];
-}
-
-.-rotate-270 {
-  @apply rotate-[-270deg];
-}
-
-.-rotate-315 {
-  @apply rotate-[-315deg];
-}
-
-.-rotate-360 {
-  @apply rotate-[-360deg];
 }
 
 
@@ -93,26 +97,12 @@
   animation: animate 1s backwards;
   animation-delay: 1s;
 }
-/* .two{
-  animation: animate 1s backwards;
-  animation-delay: 1.4s;
-}
-.three{
-  animation: animate 1s backwards;
-  animation-delay: 1.8s;
-} */
+
 .four{
   animation: animate 1s backwards;
   animation-delay: 2.2s;
 }
-/* .five{
-  animation: animate 1s backwards;
-  animation-delay: 2.6s;
-}
-.six{
-  animation: animate 1s backwards;
-  animation-delay: 3s;
-} */
+
 .seven{
   animation: animate 1s backwards;
   animation-delay: 3.2s;

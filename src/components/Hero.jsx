@@ -34,7 +34,7 @@ const Hero = () => {
           <p className="h6 max-w-3xl mx-auto mb-6 text-n-1 lg:mb-8">
           Empower Your Team with Top-tier Talent in Web Development. Let&apos;s Connect and Elevate Your Projects Together!
           </p>
-          <Button href='/mern' white>Explore My MERN Projects</Button>
+          <Button href='#mern' white>Explore My MERN Projects</Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
