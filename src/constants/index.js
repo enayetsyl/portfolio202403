@@ -57,6 +57,7 @@ import typescript from "../assets/skills/typescript.png";
 import zustand from "../assets/skills/zustand.png";
 import geniusguide from "../assets/otherProjects/geniusguide.png";
 import accordion from "../assets/otherProjects/accordion.png";
+import hangman from "../assets/otherProjects/hangman.png";
 // blog import
 import me1 from "../assets/blog/me1.png";
 
@@ -136,6 +137,14 @@ export const brainwaveServicesIcons = [
 export const otherProjects = [
   {
     id: "0",
+    title: "Word Guess Game Hangman",
+    text: " A digital version of the classic Hangman game built with React and TypeScript! ",
+    date: "March 2024",
+    link: "https://md-enayetur-rahman.gitbook.io/typescript-project-word-guessing-game-hangman/",
+    imageUrl: hangman,
+  },
+  {
+    id: "1",
     title: "Guide Genius",
     text: "It facilitates interactive learning by converting images into word puzzles, empowering teachers and guardians to engage learners in fun, hands-on activities.",
     date: "Feb 2024",
@@ -144,21 +153,14 @@ export const otherProjects = [
     colorful: true,
   },
   {
-    id: "1",
+    id: "2",
     title: "Accordion",
     text: "Explore my JavaScript expertise showcased alongside the versatile Material-UI library through three interactive accordions, demonstrating seamless functionality and user-friendly design.",
     date: "March 2024",
     link: "https://accordion-by-enayet.vercel.app/",
     imageUrl: accordion,
   },
-  {
-    id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    link: "done",
-    imageUrl: roadmap3,
-  },
+ 
   {
     id: "3",
     title: "Integration with APIs",
