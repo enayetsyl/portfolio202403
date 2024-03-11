@@ -28,6 +28,20 @@ const Header = () => {
     setOpenNavigation(false);
   };
 
+  const url = 'https://md-enayetur-rahman-portfolio.vercel.app/cv.pdf'
+
+  const downloadResume =(url) => {
+    const aTag = document.createElement('a')
+    aTag.href=url
+    aTag.setAttribute('download','cv.pdf')
+
+    document.body.appendChild(aTag)
+    aTag.click()
+    aTag.remove()
+  }
+
+
+
   return (
     <div
       className={` fixed  top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
@@ -160,7 +174,13 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
       
-        <Button className="font-sans hidden lg:flex 2xl:text-2xl " href="#login">
+
+      
+        <Button className="font-sans hidden lg:flex 2xl:text-2xl " 
+        
+        // href="#login"
+        onClick={() => {downloadResume(url)}}
+        >
          Resume
         </Button>
 

@@ -58,6 +58,7 @@ import zustand from "../assets/skills/zustand.png";
 import geniusguide from "../assets/otherProjects/geniusguide.png";
 import accordion from "../assets/otherProjects/accordion.png";
 import hangman from "../assets/otherProjects/hangman.png";
+import githubProfileFinder from "../assets/otherProjects/githubprofilefinder.png";
 // blog import
 import me1 from "../assets/blog/me1.png";
 
@@ -154,6 +155,15 @@ export const otherProjects = [
   },
   {
     id: "2",
+    title: "GitHub Profile Finder",
+    text: "The GitHub Profile Finder is a web application designed to streamline the process of discovering and displaying user profiles from GitHub.",
+    date: "May 2023",
+    link: "https://md-enayetur-rahman.gitbook.io/typescript-project-github-profile-finder/",
+    imageUrl: githubProfileFinder,
+    colorful: true,
+  },
+  {
+    id: "3",
     title: "Accordion",
     text: "Explore my JavaScript expertise showcased alongside the versatile Material-UI library through three interactive accordions, demonstrating seamless functionality and user-friendly design.",
     date: "March 2024",
@@ -161,15 +171,6 @@ export const otherProjects = [
     imageUrl: accordion,
   },
  
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    link: "progress",
-    imageUrl: roadmap4,
-    colorful: true,
-  },
 ];
 
 export const collabText =
