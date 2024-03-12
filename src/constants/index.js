@@ -157,7 +157,7 @@ export const otherProjects = [
     id: "2",
     title: "GitHub Profile Finder",
     text: "The GitHub Profile Finder is a web application designed to streamline the process of discovering and displaying user profiles from GitHub.",
-    date: "May 2023",
+    date: "March 2024",
     link: "https://md-enayetur-rahman.gitbook.io/typescript-project-github-profile-finder/",
     imageUrl: githubProfileFinder,
     colorful: true,
