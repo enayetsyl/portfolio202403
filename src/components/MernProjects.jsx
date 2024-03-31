@@ -4,6 +4,7 @@ import Section from "./Section";
 import { Gradient } from "./design/Services";
 import ProjectTwoTemp from "./ProjectTwoTemp";
 import ProjectThreeTemp from "./ProjectThreeTemp";
+import ProjectOnePointOneTemp from "./ProjectOnePointOneTemp";
 
 const MernProjects = () => {
   return (
@@ -18,6 +19,7 @@ const MernProjects = () => {
         />
         <div className="relative">
           <ProjectOneTemp />
+          <ProjectOnePointOneTemp />
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
             <ProjectTwoTemp />

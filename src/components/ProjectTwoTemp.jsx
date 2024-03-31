@@ -10,7 +10,7 @@ const ProjectTwoTemp = () => {
                   width={630}
                   height={750}
                   alt="easy-task"
-                  className="h-full w-full object-cover opacity-60"
+                  className="h-full w-full object-cover opacity-80"
                 />
               </div>
 

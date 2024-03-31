@@ -126,6 +126,20 @@ export const brainwaveServices = [
     link: "https://github.com/SakifAzwad/Meet-Ready",
   },
 ];
+export const knowledgeMinarLink = [
+  {
+    name: "See Doc",
+    link: "https://md-enayetur-rahman.gitbook.io/knowledge-minaret-documentation",
+  },
+  {
+    name: "Live Link",
+    link: "https://knowledge-minaret.vercel.app/",
+  },
+  {
+    name: "GitHub",
+    link: "https://github.com/enayetsyl/KnowledgeMinaret",
+  },
+];
 
 export const brainwaveServicesIcons = [
   socketio,
@@ -134,6 +148,8 @@ export const brainwaveServicesIcons = [
   node,
   express,
 ];
+
+
 
 export const otherProjects = [
   {
