@@ -58,6 +58,7 @@ import zustand from "../assets/skills/zustand.png";
 import geniusguide from "../assets/otherProjects/geniusguide.png";
 import accordion from "../assets/otherProjects/accordion.png";
 import hangman from "../assets/otherProjects/hangman.png";
+import weathernaut from "../assets/otherProjects/weathernaut.png";
 import githubProfileFinder from "../assets/otherProjects/githubprofilefinder.png";
 // blog import
 import me1 from "../assets/blog/me1.png";
@@ -154,6 +155,14 @@ export const brainwaveServicesIcons = [
 export const otherProjects = [
   {
     id: "0",
+    title: "Weather App",
+    text: " Weather app utilizing OpenWeatherMap API. Automatic location detection. MaterialUI design. ",
+    date: "March 2024",
+    link: "https://weathernaut-eight.vercel.app/",
+    imageUrl: weathernaut,
+  },
+  {
+    id: "1",
     title: "Word Guess Game Hangman",
     text: " A digital version of the classic Hangman game built with React and TypeScript! ",
     date: "March 2024",
@@ -161,7 +170,7 @@ export const otherProjects = [
     imageUrl: hangman,
   },
   {
-    id: "1",
+    id: "2",
     title: "Guide Genius",
     text: "It facilitates interactive learning by converting images into word puzzles, empowering teachers and guardians to engage learners in fun, hands-on activities.",
     date: "Feb 2024",
@@ -170,7 +179,7 @@ export const otherProjects = [
     colorful: true,
   },
   {
-    id: "2",
+    id: "3",
     title: "GitHub Profile Finder",
     text: "The GitHub Profile Finder is a web application designed to streamline the process of discovering and displaying user profiles from GitHub.",
     date: "March 2024",
@@ -179,7 +188,7 @@ export const otherProjects = [
     colorful: true,
   },
   {
-    id: "3",
+    id: "4",
     title: "Accordion",
     text: "Explore my JavaScript expertise showcased alongside the versatile Material-UI library through three interactive accordions, demonstrating seamless functionality and user-friendly design.",
     date: "March 2024",

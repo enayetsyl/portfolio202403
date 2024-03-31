@@ -60,7 +60,7 @@ const OtherProjects = () => {
 
                   <div className="mb-10 -my-10 -mx-15">
                     <img
-                      className="w-full opacity-65 rounded-lg"
+                      className="w-full opacity-85 rounded-lg"
                       src={item.imageUrl}
                       width={628}
                       height={426}
