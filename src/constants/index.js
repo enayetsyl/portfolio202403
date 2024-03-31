@@ -25,12 +25,12 @@ import render from "../assets/render.jpg";
 import vercel from "../assets/vercel.jpg";
 import next4 from "../assets/notification/next4.jpg";
 import clerk from "../assets/notification/clerk.png";
-import cardOne from "../assets/benefits/card-1.svg";
-import cardTwo from "../assets/benefits/card-2.svg";
-import cardThree from "../assets/benefits/card-3.svg";
-import cardFour from "../assets/benefits/card-4.svg";
-import cardFive from "../assets/benefits/card-5.svg";
-import cardSix from "../assets/benefits/card-6.svg";
+import cardOne from "../assets/blog/card-1.svg";
+import cardTwo from "../assets/blog/card-2.svg";
+import cardThree from "../assets/blog/card-3.svg";
+import cardFour from "../assets/blog/card-4.svg";
+import cardFive from "../assets/blog/card-5.svg";
+import cardSix from "../assets/blog/card-6.svg";
 
 import node from "../assets/node.svg";
 import express from "../assets/express.svg";
