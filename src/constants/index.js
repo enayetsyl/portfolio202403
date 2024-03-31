@@ -31,6 +31,7 @@ import cardThree from "../assets/benefits/card-3.svg";
 import cardFour from "../assets/benefits/card-4.svg";
 import cardFive from "../assets/benefits/card-5.svg";
 import cardSix from "../assets/benefits/card-6.svg";
+
 import node from "../assets/node.svg";
 import express from "../assets/express.svg";
 import reactjs from "../assets/reactjs.svg";

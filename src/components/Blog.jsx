@@ -59,17 +59,7 @@ const Blog = () => {
                       alt={blog.title}
                       className="w-full h-full object-cover"
                     />
-              
-              
-                  {/* {blog.imageUrl && (
-                    <img
-                      src={me1}
-                      width={380}
-                      height={362}
-                      alt={blog.title}
-                      className="w-full h-full object-cover"
-                    />
-                  )} */}
+                           
                 </div>
               </div>
               <ClipPath />
